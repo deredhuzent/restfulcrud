@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Nanum+Gothic"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>IH CRUD</title>
+  </head>
+  <body>
+    <div id="container">
+      <section id="all">
+        <h2>All characters</h2>
+        <button id="fetch-all">Fetch</button>
+      </section>
+
+      <section id="single">
+        <h2>One character</h2>
+        <input type="text" id="fetch-one-input" placeholder="id" />
+        <button id="fetch-one">Fetch</button>
+      </section>
+
+      <section id="edit">
+        <h2>Edit character</h2>
+        <input type="text" id="edit-one-input" placeholder="id" />
+        <input type="text" name="name" placeholder="name" />
+        <input type="text" name="occupation" placeholder="occupation" />
+        <input type="text" name="weapon" placeholder="weapon" />
+        <input type="text" name="debt" placeholder="debt" />
+        <button id="edit-one">Edit</button>
+      </section>
+
+      <section id="delete">
+        <h2>Delete character</h2>
+        <input type="text" id="delete-one-input" placeholder="id" />
+        <button id="delete-one">Delete</button>
+      </section>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.18.0/axios.min.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>

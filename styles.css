@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Nanum Gothic', sans-serif;
+}
+
+#container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100vw;
+  height: 100vh;
+  background: rgb(191, 136, 187);
+}
+
+#all,
+#single,
+#edit,
+#delete {
+  margin: 2%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 40%;
+  height: 40%;
+  background: rgb(228, 210, 231);
+  border: 1px solid white;
+}
+
+section button {
+  margin-top: 10px;
+  padding: 5px 10px;
+  border-radius: 10%;
+  color: black;
+}
+
+input {
+  margin-top: 10px;
+  padding: 5px 10px;
+}
